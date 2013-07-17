@@ -2,63 +2,55 @@ require 'spec_helper'
 
 describe 'User' do
   context "on homepage" do
+    before do
+      @post = Post.create(:title => "New post", :content => "Awesome content")
+      visit root_path
+    end
+
     it "sees a list of recent posts titles" do
-      pending
-      # given a user and a list of posts
-      # user visits the homepage
-      # user can see the posts titles
+      page.should have_content(@post.title)
     end
+
     it "can not see bodies of the recent posts" do
-      pending
-      # given a user and a list of posts
-      # user visits the homepage
-      # user should not see the posts bodies
+      page.should_not have_content(@post.content)
     end
+
     it "can click on titles of recent posts and should be on the post show page" do
-      pending
-      # given a user and a list of posts
-      # user visits the homepage
-      # when a user can clicks on a post title they should be on the post show page
+      click_link(@post.title)
+      current_url.should eq post_url(@post)
     end
+
     it "can not see the edit link" do
-      pending
-      # given a user and a list of posts
-      # user visits the homepage
-      # user should not see any edit links
+      page.should_not have_css('a[href="' + edit_admin_post_url(@post) + '"]')
     end
+
     it "can not see the delete link" do
-      pending
-      # given a user and a list of posts
-      # user visits the homepage
-      # user should not see any delete links
+      page.should_not have_css('a[href="' + admin_post_url(@post) + '"][data-method="delete"]')
     end
   end
 
   context "post show page" do
+
+    before do
+      @post = Post.create(:title => "New post", :content => "Awesome content")
+      visit post_url(@post)
+    end
+
     it "sees title and body of the post" do
-      pending
-      # given a user and post(s)
-      # user visits the post show page
-      # user should see the post title
-      # user should see the post body
+      page.should have_content(@post.title)
+      page.should have_content(@post.content)
     end
+
     it "can not see the edit link" do
-      pending
-      # given a user and post(s)
-      # user visits the post show page
-      # user should not see the post edit link
+      page.should_not have_css('a[href="' + edit_admin_post_url(@post) + '"]')      # given a user and post(s)
     end
+
     it "can not see the published flag" do
-      pending
-      # given a user and post(s)
-      # user visits the post show page
-      # user should not see the published flag content
+      page.should_not have_content("Published:")
     end
+
     it "can not see the Admin homepage link" do
-      pending
-      # given a user and post(s)
-      # user visits the post show page
-      # user should not see the the admin homepage link
+      page.should_not have_css('a[href="' + admin_posts_url + '"]')
     end
   end
 end
