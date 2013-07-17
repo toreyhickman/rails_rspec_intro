@@ -1,0 +1,641 @@
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1m[0m
+  [1m[35m (21.8ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (11.2ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (470.0ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (1.3ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (1.3ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (1.5ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1m[0m
+  [1m[35m (1.4ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (1.5ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (1.7ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (1.2ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (1.5ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (1.4ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (0.1ms)[0m  [1m[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+PG::Error: ERROR:  relation "posts" does not exist
+LINE 5:              WHERE a.attrelid = '"posts"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"posts"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Connecting to database specified by database.yml
+  [1m[36m (79.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (2.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (1.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePost (20130423183943)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (26.6ms)[0m  [1mCREATE TABLE "posts" ("id" serial primary key, "slug" character varying(255), "title" character varying(255), "content" text, "is_published" boolean DEFAULT 'f', "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130423183943')
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (2.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (4.8ms)[0m  [1mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "posts" DISABLE TRIGGER ALL[0m
+  [1m[35m (12.4ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (67.6ms)[0m  [1mTRUNCATE TABLE "posts" RESTART IDENTITY CASCADE;[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "posts" ENABLE TRIGGER ALL
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (42.9ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["content", "lorem"], ["created_at", Wed, 17 Jul 2013 03:57:10 UTC +00:00], ["is_published", false], ["slug", nil], ["title", "Man From The Boondocks"], ["updated_at", Wed, 17 Jul 2013 03:57:10 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["content", "lorem"], ["created_at", Wed, 17 Jul 2013 03:57:10 UTC +00:00], ["is_published", false], ["slug", nil], ["title", "Man From The Boondocks"], ["updated_at", Wed, 17 Jul 2013 03:57:10 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["content", "A great story"], ["created_at", Wed, 17 Jul 2013 03:57:10 UTC +00:00], ["is_published", false], ["slug", nil], ["title", "New Post!"], ["updated_at", Wed, 17 Jul 2013 03:57:10 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "posts" DISABLE TRIGGER ALL[0m
+  [1m[35m (1.8ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (4.4ms)[0m  [1mTRUNCATE TABLE "posts" RESTART IDENTITY CASCADE;[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "posts" ENABLE TRIGGER ALL
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["content", "lorem"], ["created_at", Wed, 17 Jul 2013 03:58:20 UTC +00:00], ["is_published", false], ["slug", nil], ["title", "Man From The Boondocks"], ["updated_at", Wed, 17 Jul 2013 03:58:20 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["content", "lorem"], ["created_at", Wed, 17 Jul 2013 03:58:20 UTC +00:00], ["is_published", false], ["slug", nil], ["title", "Man From The Boondocks"], ["updated_at", Wed, 17 Jul 2013 03:58:20 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["content", "A great story"], ["created_at", Wed, 17 Jul 2013 03:58:20 UTC +00:00], ["is_published", false], ["slug", nil], ["title", "New Post!"], ["updated_at", Wed, 17 Jul 2013 03:58:20 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "posts" DISABLE TRIGGER ALL[0m
+  [1m[35m (1.5ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (5.5ms)[0m  [1mTRUNCATE TABLE "posts" RESTART IDENTITY CASCADE;[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "posts" ENABLE TRIGGER ALL
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["content", "lorem"], ["created_at", Wed, 17 Jul 2013 03:58:52 UTC +00:00], ["is_published", false], ["slug", nil], ["title", "Man From The Boondocks"], ["updated_at", Wed, 17 Jul 2013 03:58:52 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["content", "lorem"], ["created_at", Wed, 17 Jul 2013 03:58:52 UTC +00:00], ["is_published", false], ["slug", nil], ["title", "Man From The Boondocks"], ["updated_at", Wed, 17 Jul 2013 03:58:52 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["content", "A great story"], ["created_at", Wed, 17 Jul 2013 03:58:52 UTC +00:00], ["is_published", false], ["slug", nil], ["title", "New Post!"], ["updated_at", Wed, 17 Jul 2013 03:58:52 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "posts" DISABLE TRIGGER ALL[0m
+  [1m[35m (1.5ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (3.9ms)[0m  [1mTRUNCATE TABLE "posts" RESTART IDENTITY CASCADE;[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "posts" ENABLE TRIGGER ALL
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["content", "lorem"], ["created_at", Wed, 17 Jul 2013 03:59:06 UTC +00:00], ["is_published", false], ["slug", nil], ["title", "Man From The Boondocks"], ["updated_at", Wed, 17 Jul 2013 03:59:06 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["content", "lorem"], ["created_at", Wed, 17 Jul 2013 03:59:06 UTC +00:00], ["is_published", false], ["slug", nil], ["title", "Man From The Boondocks"], ["updated_at", Wed, 17 Jul 2013 03:59:06 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["content", "A great story"], ["created_at", Wed, 17 Jul 2013 03:59:06 UTC +00:00], ["is_published", false], ["slug", nil], ["title", "New Post!"], ["updated_at", Wed, 17 Jul 2013 03:59:06 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (15.2ms)[0m  [1mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "posts" DISABLE TRIGGER ALL[0m
+  [1m[35m (11.1ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (45.3ms)[0m  [1mTRUNCATE TABLE "posts" RESTART IDENTITY CASCADE;[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "posts" ENABLE TRIGGER ALL
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (12.8ms)[0m  [1mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "posts" DISABLE TRIGGER ALL[0m
+  [1m[35m (10.8ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (11.9ms)[0m  [1mTRUNCATE TABLE "posts" RESTART IDENTITY CASCADE;[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "posts" ENABLE TRIGGER ALL
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (36.9ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["content", "lorem"], ["created_at", Wed, 17 Jul 2013 04:12:10 UTC +00:00], ["is_published", false], ["slug", "Man-From-The-Boondocks"], ["title", "Man From The Boondocks"], ["updated_at", Wed, 17 Jul 2013 04:12:10 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["content", "lorem"], ["created_at", Wed, 17 Jul 2013 04:12:10 UTC +00:00], ["is_published", false], ["slug", "Man-From-The-Boondocks"], ["title", "Man From The Boondocks"], ["updated_at", Wed, 17 Jul 2013 04:12:10 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["content", "A great story"], ["created_at", Wed, 17 Jul 2013 04:12:10 UTC +00:00], ["is_published", false], ["slug", "New-Post"], ["title", "New Post!"], ["updated_at", Wed, 17 Jul 2013 04:12:10 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (5.2ms)[0m  [1mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "posts" DISABLE TRIGGER ALL[0m
+  [1m[35m (20.0ms)[0m  select table_name from information_schema.views where table_schema = 'dbc_rspec_rails_test'
+  [1m[36m (16.0ms)[0m  [1mTRUNCATE TABLE "posts" RESTART IDENTITY CASCADE;[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "posts" ENABLE TRIGGER ALL
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (22.2ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["content", "lorem"], ["created_at", Wed, 17 Jul 2013 04:12:49 UTC +00:00], ["is_published", false], ["slug", "man-from-the-boondocks"], ["title", "Man From The Boondocks"], ["updated_at", Wed, 17 Jul 2013 04:12:49 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["content", "lorem"], ["created_at", Wed, 17 Jul 2013 04:12:49 UTC +00:00], ["is_published", false], ["slug", "man-from-the-boondocks"], ["title", "Man From The Boondocks"], ["updated_at", Wed, 17 Jul 2013 04:12:49 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "is_published", "slug", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["content", "A great story"], ["created_at", Wed, 17 Jul 2013 04:12:49 UTC +00:00], ["is_published", false], ["slug", "new-post"], ["title", "New Post!"], ["updated_at", Wed, 17 Jul 2013 04:12:49 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m

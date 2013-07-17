@@ -1,0 +1,167 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 22:11:03 -0500
+Connecting to database specified by database.yml
+
+PG::Error (could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (fe80::1) and accepting
+	TCP/IP connections on port 5432?
+):
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:1208:in `initialize'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:1208:in `new'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:1208:in `connect'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:326:in `initialize'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+  /Users/Torey/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+  /Users/Torey/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__4204856795293721531__call__3232433249712871293__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Torey/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Torey/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Torey/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Torey/.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/Torey/.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+  Rendered /Users/Torey/.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 22:12:14 -0500
+Connecting to database specified by database.yml
+
+PG::Error (FATAL:  database "dbc_rspec_rails_development" does not exist
+):
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:1208:in `initialize'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:1208:in `new'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:1208:in `connect'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:326:in `initialize'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+  activerecord (3.2.12) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+  /Users/Torey/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+  /Users/Torey/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__1824668046936146716__call__3088597724584713251__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Torey/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Torey/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Torey/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Torey/.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/Torey/.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/Torey/.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (36.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (2.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (1.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePost (20130423183943)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (5.4ms)[0m  [1mCREATE TABLE "posts" ("id" serial primary key, "slug" character varying(255), "title" character varying(255), "content" text, "is_published" boolean DEFAULT 'f', "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130423183943')
+  [1m[36m (38.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (3.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 22:13:17 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  [1m[36m (1.4ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM "posts" LIMIT 5) subquery_for_count [0m
+  Rendered home/index.html.erb within layouts/application (54.9ms)
+Compiled application.css  (0ms)  (pid 20163)
+Completed 200 OK in 162ms (Views: 49.6ms | ActiveRecord: 50.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 22:13:18 -0500
+Served asset /application.css - 200 OK (2ms)
+Connecting to database specified by database.yml
+  [1m[36m (14.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePost (20130423183943)
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (28.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePost (20130423183943)
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
